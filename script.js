@@ -18,6 +18,10 @@ changeSymbols.addEventListener('click', () => {
 
 });
 
+deleteValue.addEventListener('click', () => {
+    answerKey.textContent = '';
+});
+
 valueKey.addEventListener('click', () => {
     return valueKey.value = '';
 });
