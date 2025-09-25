@@ -55,6 +55,7 @@ function generateSecurePassword(length) {
         getRandomChar(uppercase),
         getRandomChar(digits),
         getRandomChar(digits),
+        getRandomChar(symbols),
         getRandomChar(symbols)
     ];
     // console.log(getRandomChar(uppercase));
